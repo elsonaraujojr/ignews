@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 const users = (request: NextApiRequest, response: NextApiResponse) => {
 
-  console.log(request.query);
+  // console.log(request.query);
   
   const user = [
     { id: 1, name: "Elson Júnior" },
